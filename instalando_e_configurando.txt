@@ -1,0 +1,10 @@
+De inico foi utilizado as seguintes configurações:
+-Comando para setar o name
+git config --global user.name 'meu nome'
+
+-Comando para setar o endereço
+git config --global user.email 'meuemail@example.com'
+
+-Definição de editor padrão
+git config --global core.editor 'code --wait'
+
