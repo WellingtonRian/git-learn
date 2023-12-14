@@ -1,0 +1,27 @@
+--Alguns fatos importantes sobre branchs--
+-Isolamento: 
+Branches permitem trabalhar em funcionalidades separadas sem afetar a branch principal.
+
+-Testes e Desenvolvimento:
+São usadas para testar novas ideias ou funcionalidades sem mexer no código principal.
+
+-Histórico Próprio: 
+Cada branch tem seu próprio histórico de alterações (commits).
+
+-Colaboração: 
+Equipes podem trabalhar em diferentes tarefas ao mesmo tempo em branches separadas.
+
+-Merges: 
+Permitem unir alterações de uma branch para outra, incluindo na branch principal.
+
+-Boas Práticas: 
+Nomenclatura descritiva ajuda a entender o propósito de cada branch.
+
+-Exclusão e Limpeza:
+Branches podem ser excluídas após o trabalho ser incorporado na branch principal.
+
+-Branches Remotas: 
+Existem também no servidor para colaboração entre equipes.
+
+-Eficiência: 
+O Git cria branches leves, economizando espaço e facilitando a troca entre elas.
