@@ -1,0 +1,9 @@
+--Conectando ao Github--
+Para conectar ao github,deve-se primeiro ter uma conectar
+Após isso você tem a liberdade de fazer diversas coisas,como:
+-Criação de repositório
+-Clonar repositórios existentes
+-Fazer networking com outros desenvolvedores
+-Criação de portifolio
+-Trabalhar em projetos open source
+e etc...
