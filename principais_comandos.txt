@@ -1,0 +1,41 @@
+--Principais comandos do git--
+
+-Comando de incialização
+git init
+
+-Comando para clonar repositório
+git clone URL_do_repositório
+
+-Adiciona alterações ao stage (área de observação) para serem incluídas no próximo commit.
+git add nome_do_arquivo
+
+-Grava as alterações no repositório.
+git commit -m "Mensagem do commit"
+
+-Lista, cria ou deleta branches.
+git branch                        # Lista todas as branches
+git branch nome_da_branch         # Cria uma nova branch
+git branch -d nome_da_branch     # Deleta uma branch
+
+-Muda para uma branch ou restaura arquivos do diretório de trabalho.
+git checkout nome_da_branch       # Muda para uma branch
+git checkout -- nome_do_arquivo   # Descarta alterações locais em um arquivo
+
+-Mescla alterações de uma branch para outra.
+git merge nome_da_branch          # Realiza o merge de uma branch para a atual
+
+-Gerencia repositórios remotos.
+git remote -v                     # Lista os repositórios remotos
+git remote add nome URL           # Adiciona um novo repositório remoto
+
+-Atualiza o repositório local com as mudanças do repositório remoto.
+git pull origin nome_da_branch   # Puxa as mudanças da branch remota para a local
+
+-Envia commits do repositório local para o repositório remoto.
+git push origin nome_da_branch   # Envia commits para a branch remota
+
+-Mostra o status das alterações no repositório.
+git status
+
+-Mostra o histório de commits
+git log
